@@ -13,21 +13,24 @@
                         I am a Web developer.</p>
                     <!-- Update the button texts and links -->
 
-                    <NuxtLink
-                        @click="isLoading = true"
-                        to="/portfolio"
-                        class="uppercase rounded-sm bg-red-400 font-bold text-white px-8 py-4 mx-auto mr-4 hidden md:inline"
-                    >
-                        My Portfolio
-                    </NuxtLink>
+                    <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+                        <NuxtLink
+                            @click="isLoading = true"
+                            to="/portfolio"
+                            class="flex-1 text-center uppercase rounded-sm bg-red-400 font-bold text-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base"
+                        >
+                            My Portfolio
+                        </NuxtLink>
 
-                    <NuxtLink
-                        @click="isLoading = true"
-                        to="/laravel/login"
-                        class="uppercase rounded-sm bg-green-400 font-bold text-white px-8 py-4 mx-auto hidden md:inline"
-                    >
-                        Simple App
-                    </NuxtLink>
+                        <NuxtLink
+                            @click="isLoading = true"
+                            to="/laravel/login"
+                            class="flex-1 text-center uppercase rounded-sm bg-green-400 font-bold text-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base"
+                        >
+                            Simple App
+                        </NuxtLink>
+                    </div>
+
                 </div>
             </div>
             <a href="#about-me" class="absolute block mx-auto text-xl md:mt-96 bottom-0 left-1/2 -ml-10 mt-80">
