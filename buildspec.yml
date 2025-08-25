@@ -17,7 +17,7 @@ phases:
       - echo Pushing the Docker image...
       - docker push $ECR_REPOSITORY:latest
       - echo Creating imagedefinitions.json for ECS...
-      - printf '[{"name":"my-nuxt-app","imageUri":"%s"}]' $ECR_REPOSITORY:latest > imagedefinitions.json
+      - printf '[{"name":"my-portfolio","imageUri":"%s"}]' $ECR_REPOSITORY:latest > imagedefinitions.json
 
 artifacts:
   files:
