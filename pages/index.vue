@@ -14,20 +14,20 @@
                     <!-- Update the button texts and links -->
 
                     <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
-                        <NuxtLink
+                        <!-- <NuxtLink
                             @click="isLoading = true"
-                            to="/portfolio"
+                            to="/laravel/login"
                             class="flex-1 text-center uppercase rounded-sm bg-red-400 font-bold text-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base"
                         >
                             My Portfolio
-                        </NuxtLink>
+                        </NuxtLink> -->
 
                         <NuxtLink
                             @click="isLoading = true"
-                            to="/laravel/login"
-                            class="flex-1 text-center uppercase rounded-sm bg-green-400 font-bold text-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base"
+                            to="/portfolio"
+                            class="flex-1 text-center uppercase rounded-sm bg-green-800 font-bold text-white px-4 py-2 text-xs sm:px-8 sm:py-4 sm:text-base"
                         >
-                            Simple App
+                            <Icon name="grommet-icons:link-next" size="30" class="text-bold" />
                         </NuxtLink>
                     </div>
 

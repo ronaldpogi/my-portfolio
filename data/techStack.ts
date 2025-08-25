@@ -5,6 +5,11 @@ export interface TechStackItem {
 }
 
 const techStacks: TechStackItem[] = [
+  {
+    name: "AWS",
+    icon: "mdi:aws",
+    description: "Amazon Web Services (AWS) is a cloud computing platform that provides on-demand infrastructure, services, and tools for building, deploying, and managing applications at scale."
+  },
   { 
     name: "VueJS", 
     icon: "flowbite:vue-solid",

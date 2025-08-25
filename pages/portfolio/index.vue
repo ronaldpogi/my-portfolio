@@ -5,8 +5,12 @@
 <template>
     <main>
         <HeadingComp />
+
+        <StepsComp />
+
+
         <TechComp />
-        <ProjectsComp />
+        <!-- <ProjectsComp /> -->
         <ExperienceComp />
         <FooterComp />
     </main>
