@@ -2,7 +2,7 @@
 <div class="py-10 md:py-16">
   <div class="container max-w-screen-xl mx-auto px-4">
 
-      <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5 mx-10">TECH Stack</h1>
+      <h1 class="font-bold text-gray-900 text-3xl md:text-4xl mb-5 mx-10">TECH Stack</h1>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -10,9 +10,9 @@
               <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
                   <Icon :name="stack.icon" size="25"/>
               </div>
-              <h4 class="font-medium text-gray-700 text-lg mb-4">{{stack.name}}</h4>
+              <h4 class="font-bold text-gray-900 text-lg mb-4">{{stack.name}}</h4>
 
-              <p class="font-normal text-gray-500 text-md">{{ stack.description }}</p>
+              <p class="font-normal text-gray-700 text-md">{{ stack.description }}</p>
           </div>
 
       </div>
