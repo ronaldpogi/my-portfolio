@@ -2,12 +2,12 @@
 <div class="py-12 sm:py-16 lg:py-20 xl:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-            <p class="text-sm font-bold uppercase tracking-widest text-gray-700">How I buit This App</p>
+            <p class="text-sm font-bold uppercase tracking-widest text-gray-700">How I buit This Portfolio</p>
             <h2 class="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl uppercase">
-                Deployed this App in simple steps
+                Deployed this Portfolio in simple steps
             </h2>
             <p class="mx-auto mt-4 max-w-2xl text-lg font-normal text-gray-700 lg:text-xl lg:leading-8">
-                I deployed this application using AWS ECS with a CI/CD pipeline
+                I deployed this Portfolio using AWS ECS with a CI/CD pipeline
             </p>
         </div>
         <ul class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-3">
