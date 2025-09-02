@@ -6,7 +6,7 @@ export interface experienceItem {
 
 const experience: experienceItem[] = [
     {
-        company: "Yong Cheng",
+        company: "8 Stone Business Outsourcing",
         position: "VueJs / Laravel Developer",
         year: "2021 - 2022"
     },
